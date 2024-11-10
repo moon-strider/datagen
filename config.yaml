@@ -1,14 +1,20 @@
 data-config:
   name:
     desc: a person's name (first and last)
-    type: string
+    type: str
     min_length: 1
     max_length: 100
   age:
     desc: a person's age
-    type: integer
+    type: int
     min: 0
     max: 100
   gender:
     desc: a person's gender (male or female)
     type: string
+
+generation-config:
+  quantize: 1         # over how many files to split the data
+  output-dir: data    # where to put the generated files
+  file-name: data.csv # what to name the generated file
+  header: true        # whether to include a header in the generated file
