@@ -1,0 +1,14 @@
+data-config:
+  name:
+    desc: a person's name (first and last)
+    type: string
+    min_length: 1
+    max_length: 100
+  age:
+    desc: a person's age
+    type: integer
+    min: 0
+    max: 100
+  gender:
+    desc: a person's gender (male or female)
+    type: string
