@@ -7,7 +7,7 @@ This is a simple Python script that uses the OpenAI API to generate CSV data bas
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/ilia-ts/DataGen.git
+git clone https://github.com/moon-strider/DataGen.git
 ```
 
 2. Install the required dependencies:

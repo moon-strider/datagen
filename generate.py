@@ -11,6 +11,8 @@ with open('config.yaml', 'r') as f:
 
 data_config = config.get('data-config', {})
 generation_config = config.get('generation-config', {})
+
+
 os.environ["OPENAI_API_KEY"] = config.get('openai-api-key')
 
 if not os.environ.get("OPENAI_API_KEY"):
