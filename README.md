@@ -22,3 +22,7 @@ The configuration file is located at `config.yaml`. It contains the following se
 
 - `data-config`: This section defines the data fields and their specifications.
 - `generation-config`: This section defines the generation parameters, such as the number of datapoints to generate, the output directory, and the file name.
+
+## API key
+
+Create a file called secret.yaml in the root of the project and insert your OpenAI API key. Take the secret.example.yaml file as a template.
